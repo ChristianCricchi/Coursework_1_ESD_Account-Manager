@@ -26,3 +26,6 @@ EXPOSE 8000
 CMD [ "python", "manage.py", "runserver" ] 
 
 
+# Next is to build the image with this code:
+# (CW) PS C:\Users\vivia\CW> docker build -t coursework:v1.0  
+

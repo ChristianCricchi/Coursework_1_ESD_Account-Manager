@@ -1,5 +1,4 @@
-# Demo 2
+# Docker
 
-In this project I use docker
-for contanidfskg;lfgkj;adfkgjndafg
-fkgjafdk
+In a directory calle CW I have created a virtual environment with this command:
+ - python -m pipenv install Django.

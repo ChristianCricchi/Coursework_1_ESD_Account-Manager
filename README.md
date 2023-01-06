@@ -34,4 +34,27 @@ After I started a project in Django:
 
 ** django-admin startproject coursework .
 
+then I started hello django app:
+
+* python manage.py startapp hello
+
+setting.py
+
+installed_apps:
+
+registered the app hello:
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'hello',
+]
+
+after I runed the server:
+
+** (CW) PS C:\Users\vivia\CW> python manage.py runserver
 

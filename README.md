@@ -2,7 +2,7 @@
 
 In a directory calle CW I have created a virtual environment with this command, and I have specified the version that I want to install:
  
- $ python -m pipenv install Django==4.1.3
+ ** $ python -m pipenv install Django==4.1.3
 
 Creating a virtualenv for this project...
 Pipfile: C:\Users\vivia\CW\Pipfile
@@ -25,4 +25,13 @@ Installing dependencies from Pipfile.lock (e521dd)...
 To activate this project's virtualenv, run pipenv shell.
 Alternatively, run a command inside the virtualenv with pipenv run.
 
-After I opened this folder in visual studio code:
+After I opened this folder in visual studio code and I opened my virtual environment.
+
+** PS C:\Users\vivia\CW> & C:/Users/vivia/.virtualenvs/CW-kVpWrIPh/Scripts/Activate.ps1.ps1
+(CW) PS C:\Users\vivia\CW>
+
+After I started a project in Django:
+
+** django-admin startproject coursework .
+
+

@@ -29,3 +29,20 @@ CMD [ "python", "manage.py", "runserver" ]
 # Next is to build the image with this code:
 # (CW) PS C:\Users\vivia\CW> docker build -t coursework:v1.0  
 
+At this point I had this error  and I can not solve it.
+
+(CW) PS C:\Users\vivia\CW> docker build -t coursework:1.0 . 
+[+] Building 1.0s (3/3) FINISHED
+ => [internal] load build definition from Dockerfile                         0.1s 
+ => => transferring dockerfile: 32B                                          0.0s 
+ => [internal] load .dockerignore                                            0.0s 
+ => => transferring context: 2B                                              0.0s 
+ => ERROR [internal] load metadata for docker.io/library/python:3.10-slim    0.7s 
+------
+ > [internal] load metadata for docker.io/library/python:3.10-slim:
+------
+failed to solve with frontend dockerfile.v0: failed to create LLB definition: rpc 
+error: code = Unknown desc = error getting credentials - err: exec: "docker-credential-desktop": executable file not found in %PATH%, out: ``
+(CW) PS C:\Users\vivia\CW> 
+
+I will continue to work to solve and finish the work.

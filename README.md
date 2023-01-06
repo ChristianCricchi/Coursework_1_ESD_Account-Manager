@@ -57,4 +57,3 @@ INSTALLED_APPS = [
 after I runed the server:
 
 ** (CW) PS C:\Users\vivia\CW> python manage.py runserver
-
